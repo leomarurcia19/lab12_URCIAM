@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fefffe; 
+}
+
+header {
+    background-color: #01dd64; 
+    padding: 20px;
+    text-align: center;
+}
+
+.profile {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 10px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile h2 {
+    color: #000000; 
+    margin-bottom: 10px;
+}
+
+.profile p {
+    color: #000000; 
+}
+
+@media screen and (min-width: 768px) {
+    .profile {
+        max-width: 600px;
+        margin: 20px auto;
+    }
+}
